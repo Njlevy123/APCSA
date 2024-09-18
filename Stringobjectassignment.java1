@@ -1,0 +1,29 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.stringobjectassignment;
+
+/**
+ *
+ * @author nlevy2025
+ */
+public class Stringobjectassignment {
+
+    public static void main(String[] args) {
+       
+   
+        // Created the String object thingy
+        String myName = "Noah Levy";
+
+        // Print the stuf
+        System.out.println("My name is \"" + myName + "\"");
+        System.out.println("My name length is " + myName.length());
+        System.out.println("My name in upper case is \"" + myName.toUpperCase() + "\"");
+        System.out.println("My name in lower case is \"" + myName.toLowerCase() + "\"");
+        System.out.println("The first letter in my name is \"" + myName.charAt(0) + "\"");
+        System.out.println("The last letter in my name is \"" + myName.charAt(myName.length() - 1) + "\"");
+        System.out.println("The index of the space between the names is " + myName.indexOf(" "));
+    }
+}
+    
